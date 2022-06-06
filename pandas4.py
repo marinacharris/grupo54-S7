@@ -7,7 +7,7 @@ df3 = df1[['species_id','plot_id']] #crea un subconjunto de varias columnas
 print(df3, type(df3))
 print(df1[50:61]) #filas de la 50 a la 60
 print(df1)
-print(df1.iloc[1]) # imprime la fil 1 de df1
+print(df1.iloc[1]) # imprime la fila 1 de df1
 print(df1.iloc[1,7]) # imprime la columna 7 de la fila 1, es decir un solo dato
 print(df1.iloc[0:4,1:3])
 print(df1.iloc[[0,3,9,10],:])
